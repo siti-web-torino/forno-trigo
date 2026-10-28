@@ -42,3 +42,7 @@
 - Le fotografie possono essere aggiunte solo da materiale fornito e autorizzato. L'illustrazione è grafica vettoriale originale, non una foto o una ricostruzione del locale.
 - Noindex nel documento, robots.txt chiuso e header `X-Robots-Tag` in configurazione Vercel. Il codice pubblico non implica che sia una versione ufficiale del forno.
 - Font inclusi con la rispettiva licenza OFL. Nessuna dipendenza remota durante la visita.
+
+## Aggiornamento del 28 ottobre — post originale ricevuto
+
+Il post fornito dall’utente sostituisce le ipotesi sulla palette: avorio, marrone e un solo accento arancione. Eliminato l’oliva della sezione visita; anche l’illustrazione concettuale usa ora i tre colori campionati. Le direzioni iniziali restano documentate sopra come studio precedente, non come identità corrente. Il marchio ricevuto compare in header e footer senza ricostruzioni: un SVG mostra soltanto l’area del logo del raster originale. Testo di presentazione ripreso dal post, senza inventare storia o dichiarazioni dei fondatori. Font del corpo e titoli restano scelte di progetto. Le foto dei prodotti sono attese dall’utente e saranno integrate in un passaggio successivo. Il sito pubblico esistente è gestito dall’utente su Vercel; l’assistente aggiorna solo la repo.

@@ -5,10 +5,11 @@ Ricerca del 28 ottobre 2026. Questa è una proposta indipendente, non un sito co
 ## Materiale ricevuto e identità
 
 - Input dell'utente: realizzare il sito di Forno Trigo, seguire `siti-web-torino/template-vetrina`, creare prima una **repository pubblica** nell'organizzazione. Il deploy Vercel resta all'utente, come indicato nella conversazione.
-- `img-originali/`: contiene soltanto il file del template, nessuna foto, logo o menu forniti. Catalogo fotografico vuoto. Nessuna immagine scaricata da internet viene usata nel sito.
+- `img-originali/trigo-post-instagram.png`: screenshot del post @fornotrigo, fornito dall’utente il 28 ottobre 2026. Dimensioni 1179 × 2556 px. Mostra il marchio TRIGO, sottolineatura arancione, fondo avorio e testo introduttivo firmato Lisa | Ale; nessuna persona riconoscibile. Ricevuta indicazione esplicita di usarlo come logo. Non sono ancora arrivate foto dei prodotti. Nessuna immagine scaricata da internet viene usata nel sito.
 - Nome visibile del profilo pubblico Instagram: **TRIGO | forno contemporaneo**, handle `@fornotrigo`. Osservato nel titolo della pagina https://www.instagram.com/fornotrigo/ il 28 ottobre 2026. Il contenuto del profilo è limitato agli utenti autenticati con almeno 20 anni; non è stato effettuato alcun accesso.
 - Logo originale: non disponibile. Non viene ridisegnato; il sito usa soltanto il nome dell'attività come testo.
-- Palette ufficiale, tipografia del logo, materiali del negozio e slogan: **non lo so**. La palette del progetto è una proposta, non un campionamento del marchio.
+- Palette campionata dal post: avorio `#EBE6D9`, marrone `#3A2723`, arancione `#E27739`. Sono campioni dello screenshot, non specifiche ufficiali o colori garantiti per la stampa. Materiali del negozio e font dei testi: **non lo so**.
+- Tono del post: semplice, personale, legato al grano, ai viaggi, al ritorno e a un ritmo più consapevole e lento. La sezione “Il forno” riprende esattamente il passaggio ricevuto: “TRIGO. Perché in spagnolo significa grano. E il grano è l’inizio di tutto quello che facciamo.” e le due frasi successive sui viaggi. Fonte unica: file ricevuto, post datato “1 marzo” senza anno visibile. Nessuna data annuale inventata.
 - Nessuna recensione o testimonianza attribuita a clienti viene pubblicata.
 
 ## Registro dei dati e fonti
@@ -20,7 +21,8 @@ Ricerca del 28 ottobre 2026. Questa è una proposta indipendente, non un sito co
 | Nome del forno e vendita attraverso una finestra | [la Repubblica, 22 maggio 2026](https://torino.repubblica.it/cronaca/2026/05/22/news/la_spesa_trigo_il_forno_con_la_finestra_dove_il_pane_e_una_liturgia-425361512/) | Titolo accessibile, testo in abbonamento non utilizzato. |
 | Collaborazione con il produttore di confetture Fruttati | [Pagina del produttore](https://www.aziendaagricolarissomassimo.com/about/) | Fonte del produttore. Non inserita nel sito perché non necessaria e non confermata dal forno. |
 | Orari, giorni di chiusura, prezzi, numero telefonico, email, menu e ingredienti, allergeni, ordini online, WhatsApp, disponibilità giornaliera | Nessun materiale affidabile disponibile | **[DA CONFERMARE]**. Nessun numero, prezzo, orario, prodotto specifico o flusso di prenotazione inventato. |
-| Logo, foto autorizzate, colori e font del marchio | Non ricevuti | **[DA CONFERMARE]**. Nessuna galleria fittizia. |
+| Logo, colori del post e racconto del grano e dei viaggi | Screenshot del post @fornotrigo fornito dall’utente | Logo e parole originali usati nella demo su richiesta esplicita. Valori hex campionati, non specifiche ufficiali. |
+| Foto dei prodotti e del forno; font e specifiche ufficiali | Non ricevuti | **[DA CONFERMARE]**. Nessuna galleria fittizia. |
 
 Le fonti pubbliche sono uno studio preliminare: non equivalgono a conferma del locale. Nella demo sono indicati il suo carattere indipendente e la necessità di confermare informazioni e identità.
 

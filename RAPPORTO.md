@@ -1,6 +1,6 @@
 # Rapporto — Forno Trigo
 
-Verifica del 28 ottobre 2026. **Proposta indipendente pronta da rivedere; identità ufficiale ancora da completare.**
+Verifica del 28 ottobre 2026. **Proposta indipendente pronta da rivedere; logo e testo del post Instagram forniti dall’utente e inseriti; foto dei prodotti ancora attese.**
 
 ## Pronto
 
@@ -29,6 +29,14 @@ Correzioni effettuate: rimosso un riferimento a “due” domande quando le FAQ 
 
 ## Prima di presentarlo al forno
 
-Confermare per primi **logo, palette, fotografie e tono di voce**; poi indirizzo, racconto, menu, ingredienti/allergeni, prezzi, orari e contatti. I dati da giornali non equivalgono all'approvazione dei gestori. L'accesso al profilo Instagram era limitato: non è stato eseguito login e non sono stati aggirati i limiti.
+Completare per prime le **foto dei prodotti e del locale**, poi confermare con il cliente specifiche della palette, font, indirizzo, menu, ingredienti/allergeni, prezzi, orari e contatti. Logo e racconto del post sono stati forniti dall’utente e adottati su sua richiesta. I dati da giornali non equivalgono all'approvazione dei gestori. L'accesso al profilo Instagram era limitato: non è stato eseguito login e non sono stati aggirati i limiti.
 
 L'IA conosce gli schemi che funzionano ma non misura la clientela reale di questo locale: il risultato va fatto vedere a **2–3 persone vere e al cliente** prima di considerarlo giusto. Contatto con i gestori e proposta commerciale restano all'utente.
+
+## Aggiornamento: logo e racconto originali
+
+Marchio TRIGO del post ricevuto inserito in intestazione e nel footer senza ridisegnare i pixel. Palette avorio, marrone e arancione campionata dallo screenshot: eliminato l’oliva. Sezione “Il forno” aggiornata con le parole originali del post. Le osservazioni precedenti sulla mancanza di marchio e sul colore oliva descrivono la prima versione e sono superate da questo aggiornamento. Foto dei prodotti attese; illustrazione ancora chiaramente segnata come concettuale.
+
+Controllata la modifica nel browser a 390, 768 e 1280 px: nessun overflow orizzontale; logo caricato e leggibile, menu mobile apertura/Escape/chiusura dopo scelta verificati, racconto completo leggibile a 390 px. Nessun errore con origine applicativa nei log osservati. Contrasto testo/fondo AA verificato e salvato in `docs/verifiche.json`. Le nuove immagini `logo-*-browser.jpg` e `post-storia-mobile-browser.jpg` includono la cornice grigia del banco di prova; la larghezza del contenuto è dichiarata nel JSON. I vecchi screenshot documentano la prima versione. Nessun test su dispositivi fisici o Safari.
+
+La pagina pubblica pubblicata dall’utente si apre senza login su https://forno-trigo.vercel.app/. Nessun deploy o modifica delle impostazioni Vercel eseguiti dall’assistente. Il salvataggio passa da `main` della repo esistente; il collegamento già predisposto dall’utente può avviare il suo deploy automatico.

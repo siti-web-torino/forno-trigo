@@ -9,7 +9,8 @@ const SITE_DATA = {
   address: { street: 'Via Giulia di Barolo 25/A', area: 'Vanchiglia · Torino' },
   social: { handle: '@fornotrigo', url: 'https://www.instagram.com/fornotrigo/' },
   maps: 'https://www.google.com/maps/search/?api=1&query=Forno+Trigo+Via+Giulia+di+Barolo+25A+Torino',
-  hours: null, phone: null, email: null, officialMenu: null, officialLogo: null,
+  hours: null, phone: null, email: null, officialMenu: null,
+  officialLogo: { src: 'img/trigo-logo.svg', alt: 'TRIGO' },
   navigation: [ { label: 'Il forno', href: '#il-forno' }, { label: 'La proposta', href: '#la-proposta' }, { label: 'Dove siamo', href: '#dove' } ],
   actions: { maps: 'Come arrivare', discover: 'Scopri il forno', instagram: 'Segui il forno su Instagram' },
   hero: {
@@ -19,10 +20,10 @@ const SITE_DATA = {
     caption: 'Illustrazione concettuale, non una foto del locale.'
   },
   story: {
-    index: '01 / Il forno', title: ['Un forno', 'in Vanchiglia.'],
-    intro: 'Un indirizzo, una finestrella sulla strada, pane e dolci da portare con sé.',
-    description: 'Le fonti raccontano Trigo come un forno contemporaneo dedicato ai grani antichi e alla lievitazione naturale. È in via Giulia di Barolo 25/A, nel quartiere Vanchiglia di Torino.',
-    note: 'Racconto da fonti pubbliche: informazioni da confermare con il forno.'
+    index: '01 / Il forno', title: ['Il grano,', 'l’inizio di tutto.'],
+    intro: 'TRIGO. Perché in spagnolo significa grano. E il grano è l’inizio di tutto quello che facciamo.',
+    description: 'Siamo partiti per scoprire il mondo, siamo tornati per ritrovare noi stessi. Viaggiando abbiamo imparato che esiste un altro modo di vivere: più consapevole, più lento.',
+    note: 'Dal post di presentazione di @fornotrigo, firmato Lisa | Ale.'
   },
   offer: {
     index: '02 / La proposta', title: 'Dal forno.',
@@ -52,7 +53,7 @@ const SITE_DATA = {
     footer: 'Demo indipendente · 2026 · Dati e identità da confermare',
     notesButton: 'Note sulla demo', notesTitle: 'Una proposta, da confermare.',
     notesBody: 'Questa è una proposta indipendente per Forno Trigo. Non è il sito ufficiale del locale e non risulta approvata dai gestori. Indirizzo e categorie provengono da fonti pubbliche e vanno riconfermati prima dell’uso commerciale. Orari, menu, prezzi, ingredienti, allergeni e contatti diretti sono [DA CONFERMARE].',
-    brandNote: 'Logo e fotografie originali non sono stati forniti. Colori e tipografia sono una proposta grafica, non l’identità ufficiale verificata. L’illustrazione è concettuale e non rappresenta il locale reale.',
+    brandNote: 'Il logo e il racconto del forno provengono dal post Instagram fornito dall’utente. Il marchio è mostrato com’è; la palette riprende avorio, marrone e arancione del post. I codici colore campionati e i font del sito non sono un manuale ufficiale del marchio. Le fotografie dei prodotti devono ancora essere inserite. L’illustrazione è concettuale e non rappresenta il locale reale.',
     privacyNote: 'La pagina non incorpora mappe, social, analytics o moduli e non imposta cookie applicativi. I collegamenti esterni aprono servizi di terzi, che gestiscono i dati secondo le proprie informative.'
   },
   sources: [
@@ -82,6 +83,10 @@ function fillLines(id, lines) {
 document.documentElement.classList.add('js');
 document.title = SITE_DATA.title;
 document.querySelector('meta[name="description"]').content = SITE_DATA.description;
+document.querySelectorAll('[data-brand-logo]').forEach((image) => {
+  image.src = SITE_DATA.officialLogo.src;
+  image.alt = SITE_DATA.officialLogo.alt;
+});
 document.querySelectorAll('[data-copy]').forEach((element) => {
   const copy = resolveCopy(element.dataset.copy);
   if (typeof copy === 'string') element.textContent = copy;

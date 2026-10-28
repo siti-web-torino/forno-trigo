@@ -3,12 +3,12 @@
 Demo indipendente per Forno Trigo, via Giulia di Barolo 25/A, Vanchiglia, Torino.
 Repository **pubblica**, creata da `siti-web-torino/template-vetrina`. Le regole originali rimangono in `CLAUDE.md`.
 
-Il sito non è approvato dal locale. Il deploy su Vercel è lasciato all'utente e non è stato eseguito.
+Il sito non è approvato dal locale. L’utente ha pubblicato la demo su https://forno-trigo.vercel.app/. Le modifiche vengono salvate nella stessa repo; il deploy e le impostazioni Vercel restano all’utente.
 
 ## File
 
 - `index.html`, `css/style.css`, `js/main.js`: pagina senza framework, dipendenze o build.
-- `img/`: grafica vettoriale concettuale originale. Nessuna fotografia del locale.
+- `img/`: marchio originale visualizzato dal post ricevuto e grafica vettoriale concettuale. Fotografie dei prodotti in attesa.
 - `fonts/`: Fraunces e DM Sans, ospitati localmente con licenze OFL.
 - `STUDIO.md`: fonti, dati disponibili e confronto di sei siti di panifici.
 - `DECISIONI.md`: tre direzioni considerate e motivazione della scelta.
@@ -20,7 +20,7 @@ Il sito non è approvato dal locale. Il deploy su Vercel è lasciato all'utente 
 
 I dati, i testi e i link della pagina sono in **`SITE_DATA` all'inizio di `js/main.js`**. I campi `null` sono dati mancanti: non compilarli con valori ipotetici. Le informazioni modificabili non richiedono di intervenire nel resto della logica JavaScript.
 
-Colori, font e scale sono nelle variabili all'inizio di `css/style.css`. La palette crema, bordeaux, oliva e grano è **una proposta grafica**, non una palette ufficiale verificata. Il nome in intestazione è testo, non un logo ricostruito.
+Colori, font e scale sono nelle variabili all'inizio di `css/style.css`. La palette avorio `#EBE6D9`, marrone `#3A2723` e arancione `#E27739` è campionata dallo screenshot del post Instagram fornito dall’utente. I valori non sono specifiche ufficiali del marchio. Il logo originale compare in intestazione e nel footer: `img/trigo-logo.svg` mostra una finestra dei pixel del post, senza ridisegnarli, deformarli o generarli. `img-originali/trigo-post-instagram.png` conserva il file ricevuto. I font dei testi sono ancora una scelta di progetto.
 
 Il titolo e la descrizione vengono applicati anche dal JavaScript. Il documento HTML contiene il fallback iniziale di questi metadati e un riepilogo `noscript`: aggiornare anche questi se cambiano nome o indirizzo. La fascia tipografica decorativa in HTML ripete soltanto le due categorie e la città.
 
@@ -28,7 +28,8 @@ Per una verifica locale è sufficiente un server di file statici nella radice de
 
 ## Dati e materiali da confermare
 
-- Logo originale, palette ufficiale, font e fotografie autorizzate del forno.
+- Fotografie autorizzate dei prodotti e del forno; font e specifiche cromatiche ufficiali.
+- Logo e post ricevuti dall’utente il 28 ottobre 2026 e adottati per la demo; approvazione finale del locale ancora da ottenere.
 - Indirizzo e racconto dell'attività, attualmente derivati da fonti pubbliche.
 - Orari e giorni di chiusura.
 - Menu, prezzi, assortimento attuale, ingredienti e allergeni.
@@ -41,6 +42,6 @@ Nel sito i dati mancanti sono indicati con `[DA CONFERMARE]`. Il profilo Instagr
 
 `meta robots`, `robots.txt` e l'header `X-Robots-Tag` in `vercel.json` mantengono la demo esclusa dall'indicizzazione. Il codice pubblico rimane visibile su GitHub: `noindex` non è una protezione di accesso.
 
-Nessun progetto o deploy Vercel è stato creato. Il sito è predisposto come pagina statica per l'importazione dalla stessa repository; l'eventuale link pubblico di produzione e le sue autorizzazioni andranno verificati dopo il deploy dell'utente. Non rimuovere i segnali della demo o noindex finché dati, materiali e identità non sono approvati.
+Il deploy Vercel è stato eseguito dall’utente. Il link https://forno-trigo.vercel.app/ è stato aperto senza schermata di accesso nel browser di verifica il 28 ottobre 2026. Le modifiche al codice passano da `main`; nessuna impostazione o operazione di deploy viene eseguita dall’assistente su Vercel. Non rimuovere i segnali della demo o noindex finché dati, materiali e identità non sono approvati.
 
 Le fotografie future devono essere fornite e autorizzate. Conservare gli originali in `img-originali/` e inserire versioni WebP ottimizzate in `img/`; non usare persone riconoscibili senza consenso.

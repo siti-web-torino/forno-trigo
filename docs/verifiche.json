@@ -7,21 +7,21 @@
   "robots_noindex": true,
   "contrast": [
     {
-      "text": "#542C26",
-      "background": "#F4EEDD",
-      "ratio": 10.27,
+      "text": "#3A2723",
+      "background": "#EBE6D9",
+      "ratio": 11.28,
       "AA_normal_text": true
     },
     {
-      "text": "#73594C",
-      "background": "#F4EEDD",
-      "ratio": 5.55,
+      "text": "#675449",
+      "background": "#EBE6D9",
+      "ratio": 5.73,
       "AA_normal_text": true
     },
     {
-      "text": "#F4EEDD",
-      "background": "#485038",
-      "ratio": 7.31,
+      "text": "#EBE6D9",
+      "background": "#3A2723",
+      "ratio": 11.28,
       "AA_normal_text": true
     }
   ],
@@ -56,5 +56,47 @@
   "unexpected_horizontal_scroll": false,
   "physical_devices_checked": false,
   "vercel_deployment_performed": false,
-  "official_brand_identity_verified": false
+  "official_brand_identity_verified": false,
+  "original_logo_supplied_by_user": true,
+  "logo_pixels_redrawn": false,
+  "brand_palette_source": "Screenshot post Instagram fornito dall’utente; valori campionati, non specifiche ufficiali.",
+  "updated_browser_widths_checked": [
+    390,
+    768,
+    1280
+  ],
+  "updated_client_scroll_widths": [
+    [
+      375,
+      375
+    ],
+    [
+      753,
+      753
+    ],
+    [
+      1265,
+      1265
+    ]
+  ],
+  "updated_screenshots": [
+    {
+      "file": "docs/anteprime/logo-mobile-browser.jpg",
+      "content_width": 390,
+      "includes_test_wrapper": true
+    },
+    {
+      "file": "docs/anteprime/logo-tablet-browser.jpg",
+      "content_width": 768,
+      "includes_test_wrapper": true
+    },
+    {
+      "file": "docs/anteprime/logo-desktop-browser.jpg",
+      "content_width": 1280,
+      "includes_test_wrapper": true
+    }
+  ],
+  "post_story_screenshot": "docs/anteprime/post-storia-mobile-browser.jpg",
+  "vercel_settings_changed_by_assistant": false,
+  "browser_console_app_errors_observed": []
 }
