@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="540" viewBox="0 0 480 540" fill="none">
+  <title>Illustrazione concettuale della finestrella</title>
+  <desc>Finestra immaginaria, pane e forme di dolci. Non rappresenta il locale reale e non è il logo del forno.</desc>
+  <path d="M41 476V229C41 119 130 30 240 30C350 30 439 119 439 229V476H41Z" fill="#DBB15D" stroke="#542C26" stroke-width="2"/>
+  <path d="M60 456V231C60 132 141 50 240 50C339 50 420 132 420 231V456H60Z" stroke="#542C26" stroke-width="1.5"/>
+  <path d="M80 436V237C80 149 152 77 240 77C328 77 400 149 400 237V436H80Z" fill="#F4EEDD" stroke="#542C26" stroke-width="1.5"/>
+  <path d="M80 274H400V290H80V274ZM80 420H400V436H80V420Z" fill="#542C26"/>
+  <path d="M241 77V274" stroke="#542C26" stroke-width="1.5"/>
+  <path d="M117 233C101 207 128 179 159 172C190 165 214 173 216 195C219 219 198 245 164 251C142 255 124 248 117 233Z" fill="#DBB15D" stroke="#542C26" stroke-width="2"/>
+  <path d="M144 192L135 221M167 184L158 218M190 184L181 216" stroke="#542C26" stroke-width="2" stroke-linecap="round"/>
+  <path d="M274 247C261 225 275 201 294 196C312 174 337 186 344 198C365 198 377 223 366 242C344 254 301 261 274 247Z" fill="#DBB15D" stroke="#542C26" stroke-width="2"/>
+  <path d="M283 237C296 229 346 223 357 233M296 204C294 210 292 215 293 221M318 197L319 216M341 203L346 216" stroke="#542C26" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M111 389C109 369 128 346 162 343C202 340 225 359 224 382C223 402 206 413 170 413C135 413 113 405 111 389Z" fill="#DBB15D" stroke="#542C26" stroke-width="2"/>
+  <path d="M141 360L137 383M168 354L163 384M194 357L188 383" stroke="#542C26" stroke-width="2" stroke-linecap="round"/>
+  <path d="M275 388C271 366 288 349 312 349C340 349 359 365 358 386C357 405 337 416 312 414C290 413 278 404 275 388Z" fill="#DBB15D" stroke="#542C26" stroke-width="2"/>
+  <path d="M292 387C286 377 296 365 311 365C328 365 340 375 336 387C332 400 303 404 298 391C294 380 316 374 323 384C327 391 312 396 309 388" stroke="#542C26" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M24 476H456V495H24V476Z" fill="#542C26"/>
+  <path d="M42 495V513H438V495M58 514H422" stroke="#542C26" stroke-width="1.5"/>
+  <path d="M25 142L32 160L50 167L32 174L25 192L18 174L0 167L18 160L25 142Z" fill="#542C26"/>
+  <path d="M454 297L461 315L479 322L461 329L454 347L447 329L429 322L447 315L454 297Z" fill="#542C26"/>
+  <circle cx="390" cy="43" r="26" fill="#F4EEDD" stroke="#542C26" stroke-width="1.5"/>
+  <path d="M381 43H399M390 34V52" stroke="#542C26" stroke-width="1.5"/>
+</svg>

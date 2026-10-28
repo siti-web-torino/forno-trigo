@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-28",
+  "local_assets_missing": [],
+  "fragment_targets_missing": [],
+  "svg_valid": true,
+  "vercel_json_valid": true,
+  "robots_noindex": true,
+  "contrast": [
+    {
+      "text": "#542C26",
+      "background": "#F4EEDD",
+      "ratio": 10.27,
+      "AA_normal_text": true
+    },
+    {
+      "text": "#73594C",
+      "background": "#F4EEDD",
+      "ratio": 5.55,
+      "AA_normal_text": true
+    },
+    {
+      "text": "#F4EEDD",
+      "background": "#485038",
+      "ratio": 7.31,
+      "AA_normal_text": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "docs/anteprime/mobile-390.jpg",
+      "size": [
+        390,
+        900
+      ]
+    },
+    {
+      "file": "docs/anteprime/tablet-768.jpg",
+      "size": [
+        768,
+        900
+      ]
+    },
+    {
+      "file": "docs/anteprime/desktop-1280.jpg",
+      "size": [
+        1280,
+        900
+      ]
+    }
+  ],
+  "browser_widths_checked": [
+    390,
+    768,
+    1280
+  ],
+  "unexpected_horizontal_scroll": false,
+  "physical_devices_checked": false,
+  "vercel_deployment_performed": false,
+  "official_brand_identity_verified": false
+}

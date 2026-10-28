@@ -1,0 +1,4 @@
+strumenti/
+.openai/
+.DS_Store
+dist/
