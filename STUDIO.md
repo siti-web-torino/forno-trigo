@@ -60,7 +60,7 @@ Un visitatore da telefono cerca in primo luogo posizione e orari, poi proposta e
 
 ## Catalogo del materiale — Calendario del pane
 
-Ricevuto il 28 ottobre 2026. Originali conservati in `img-originali/calendario-pane/`, senza modifiche. Tutti sono screenshot 709 × 1536 px di grafiche Instagram con pane, testi, mani e interfaccia dell’app; nessun volto o persona identificabile. Usati come fonte, senza presentarli come fotografie autonome della galleria. Le immagini hanno qualità sufficiente per leggere i testi, non sono originali fotografici ad alta risoluzione.
+Ricevuto il 28 ottobre 2026. Originali conservati in `img-originali/calendario-pane/`, senza modifiche. Tutti sono screenshot 709 × 1536 px di grafiche Instagram con pane, testi, mani e interfaccia dell’app; nessun volto o persona identificabile. Usati come fonte e, su richiesta dell’utente, con ritagli di visualizzazione delle aree fotografiche nel calendario. Le immagini hanno qualità sufficiente per leggere i testi, non sono originali fotografici ad alta risoluzione.
 
 | File | Giorni e pani trascritti | Elementi essenziali mantenuti |
 | --- | --- | --- |
@@ -73,3 +73,9 @@ Ricevuto il 28 ottobre 2026. Originali conservati in `img-originali/calendario-p
 | IMG_8814.jpeg | Domenica: Shokupan | Pane in cassetta giapponese, tipo 1, metodo Tangzhong, mollica soffice, sando. |
 
 Lettura ad alta certezza per nomi, giorni e ingredienti riportati. Le descrizioni sono parafrasi abbreviate su richiesta dell’utente, non slogan modificati. Le note di mandorla della Saragolla sono descritte come aroma, non come ingrediente aggiunto. Le durate di conservazione del post non vengono ripetute nella sintesi: il visitatore trova prima giorni, varietà, farine, ingredienti distintivi e consistenza. Non sono un elenco completo degli ingredienti o degli allergeni. Non è stata trasformata la dicitura “Ogni giorno” in un orario di apertura o in disponibilità in tempo reale.
+
+## Abbinamento delle fotografie nel calendario
+
+La foto della pagnotta aperta di IMG_8808 è identificata dall’utente come **Pane di casa**. Non viene attribuita anche all’Integrale. Per quest’ultimo manca una foto identificata con certezza; il testo rimane completo. Gli altri sette ritagli mostrano Rugbrød (IMG_8809), Saragolla e Amarillo (IMG_8810), Cacao (IMG_8811), Campero (IMG_8812), Venere (IMG_8813), Shokupan (IMG_8814). Originali invariati, nessun ritocco ai prodotti o ricostruzione generativa. Le figure escludono l’interfaccia Instagram e i testi del post mediante una finestra CSS; alcune mani restano come nel materiale ricevuto, senza volti o persone identificabili.
+
+I rettangoli sono in `SITE_DATA`, con testi alternativi specifici. Controllati tutti i soggetti nel browser; estesi i ritagli di Venere e Shokupan per includere tutta la forma visibile nel post. I file hanno lato lungo 1536 px, peso compreso fra circa 190 e 246 kB e vengono caricati in modo differito. La visualizzazione riutilizza gli originali già presenti nella repo.

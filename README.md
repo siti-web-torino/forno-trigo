@@ -28,7 +28,7 @@ Per una verifica locale è sufficiente un server di file statici nella radice de
 
 ## Dati e materiali da confermare
 
-- Fotografie autorizzate dei prodotti e del forno; font e specifiche cromatiche ufficiali.
+- Fotografia dell’Integrale identificata con certezza e fotografie del locale; font e specifiche cromatiche ufficiali. Otto fotografie dei pani sono già visibili dal materiale ricevuto.
 - Logo e post ricevuti dall’utente il 28 ottobre 2026 e adottati per la demo; approvazione finale del locale ancora da ottenere.
 - Indirizzo e racconto dell'attività, attualmente derivati da fonti pubbliche.
 - Orari e giorni di chiusura.
@@ -51,3 +51,11 @@ Le fotografie future devono essere fornite e autorizzate. Conservare gli origina
 I sette screenshot forniti dall’utente sono conservati invariati in `img-originali/calendario-pane/`. La pagina presenta tutti i nove pani con descrizioni abbreviate in testo HTML, organizzati per i giorni indicati nelle immagini. I contenuti si modificano in `SITE_DATA.offer.days` in `js/main.js`: `label` è il gruppo di giorni, `breads` contiene nomi e descrizioni. Il titolo e il richiamo in navigazione usano “Calendario del pane”.
 
 Il post mostra “15 settembre”, senza anno visibile: non attribuire un anno. “Ogni giorno” descrive il calendario delle produzioni; non è prova di apertura quotidiana. La disponibilità attuale e le informazioni complete sugli ingredienti e sugli allergeni vanno confermate con il forno. Non sono stati aggiunti prezzi o indicazioni “senza glutine”, né promesse sulla conservazione.
+
+## Foto dei pani e movimento
+
+Otto immagini del calendario sono ora visibili accanto ai nomi. La foto in `IMG_8808.jpeg` è associata al **Pane di casa**, come identificato dall’utente. L’Integrale conserva la descrizione in attesa di una foto identificata con certezza. Gli altri abbinamenti sono Rugbrød → IMG_8809; Saragolla e Amarillo → due aree di IMG_8810; Cacao → IMG_8811; Campero → IMG_8812; Venere → IMG_8813; Shokupan → IMG_8814.
+
+Ogni pane ha un campo `photo` in `SITE_DATA.offer.days[].breads[]`: `src`, `alt`, dimensioni `source` e rettangolo `crop` in pixel `[x, y, larghezza, altezza]`. Il valore `null` lascia il testo senza foto. Il CSS mostra la sola area fotografica del post; i file originali sono invariati e i testi/interfaccia Instagram restano fuori dal ritaglio. Le immagini hanno caricamento differito e spazio riservato; uno stesso file, come IMG_8810, viene riutilizzato dal browser per i due ritagli.
+
+Le sezioni entrano una volta con una comparsa di 760 ms e spostamento di 14 px; i tratti arancioni si distendono in 1 s. Sui dispositivi con puntatore preciso le foto hanno un leggero ingrandimento al passaggio. `prefers-reduced-motion` disabilita il movimento e annulla le entrate in corso. Se le API di animazione non sono disponibili, il contenuto resta leggibile.

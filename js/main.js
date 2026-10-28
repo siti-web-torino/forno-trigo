@@ -32,29 +32,29 @@ const SITE_DATA = {
     menuNote: 'Conferma con il forno il calendario attuale, la disponibilità, i prezzi e gli allergeni. Le descrizioni sono sintesi del post, non un elenco completo degli ingredienti.',
     days: [
       { id: 'pane-ogni-giorno', label: 'Ogni giorno', breads: [
-        { name: 'Pane di casa', description: 'Lievito madre vivo e farro monococco del Mulino Sobrino. Mollica aperta e crosta croccante al sesamo tostato.' },
-        { name: 'Integrale', description: 'Farina tipo 1 del Mulino Fagioli e integrale del Mulino Sobrino. Lievitazione naturale di 19 ore, mollica densa e umida.' }
+        { name: 'Pane di casa', photo: { src: 'img-originali/calendario-pane/IMG_8808.jpeg', alt: 'Pane di casa aperto, con mollica e crosta in vista', source: [709, 1536], crop: [8, 865, 290, 377] }, description: 'Lievito madre vivo e farro monococco del Mulino Sobrino. Mollica aperta e crosta croccante al sesamo tostato.' },
+        { name: 'Integrale', photo: null, description: 'Farina tipo 1 del Mulino Fagioli e integrale del Mulino Sobrino. Lievitazione naturale di 19 ore, mollica densa e umida.' }
       ] },
       { id: 'pane-mercoledi-domenica', label: 'Da mercoledì a domenica', breads: [
-        { name: 'Rugbrød', description: 'Pane nordico con 100% farina di segale del Mulino Sobrino, lievito madre e semi. Compatto, da gustare a fette sottili.' }
+        { name: 'Rugbrød', photo: { src: 'img-originali/calendario-pane/IMG_8809.jpeg', alt: 'Rugbrød rettangolare ricoperto di semi', source: [709, 1536], crop: [399, 578, 288, 476] }, description: 'Pane nordico con 100% farina di segale del Mulino Sobrino, lievito madre e semi. Compatto, da gustare a fette sottili.' }
       ] },
       { id: 'pane-martedi', label: 'Martedì', breads: [
-        { name: 'Saragolla', description: 'Grano duro antico e lievito madre vivo. Mollica dorata e setosa, crosta con note di mandorla tostata.' }
+        { name: 'Saragolla', photo: { src: 'img-originali/calendario-pane/IMG_8810.jpeg', alt: 'Pagnotta di Saragolla dalla crosta scura', source: [709, 1536], crop: [465, 523, 244, 258] }, description: 'Grano duro antico e lievito madre vivo. Mollica dorata e setosa, crosta con note di mandorla tostata.' }
       ] },
       { id: 'pane-mercoledi', label: 'Mercoledì', breads: [
-        { name: 'Amarillo', description: 'Farina tipo 1 del Mulino Fagioli, lievito madre vivo, curcuma e pepe nero. Mollica aperta e dorata, crosta scrocchiarella.' }
+        { name: 'Amarillo', photo: { src: 'img-originali/calendario-pane/IMG_8810.jpeg', alt: 'Amarillo tagliato, con la mollica gialla', source: [709, 1536], crop: [0, 914, 308, 328] }, description: 'Farina tipo 1 del Mulino Fagioli, lievito madre vivo, curcuma e pepe nero. Mollica aperta e dorata, crosta scrocchiarella.' }
       ] },
       { id: 'pane-giovedi', label: 'Giovedì', breads: [
-        { name: 'Cacao', description: 'Farina tipo 1 del Mulino Fagioli, lievito madre vivo e cacao extra dark, con amarene semicandite Agrimontana e nocciole IGP di Roero Vero. Mollica soffice.' }
+        { name: 'Cacao', photo: { src: 'img-originali/calendario-pane/IMG_8811.jpeg', alt: 'Pane Cacao tagliato, con mollica scura', source: [709, 1536], crop: [0, 747, 310, 389] }, description: 'Farina tipo 1 del Mulino Fagioli, lievito madre vivo e cacao extra dark, con amarene semicandite Agrimontana e nocciole IGP di Roero Vero. Mollica soffice.' }
       ] },
       { id: 'pane-venerdi', label: 'Venerdì', breads: [
-        { name: 'Campero', description: 'Impasto semi-integrale con farina del Mulino Fagioli e lievito madre vivo. Patate arrosto, cipolla e rosmarino, crosta rustica e mollica soffice.' }
+        { name: 'Campero', photo: { src: 'img-originali/calendario-pane/IMG_8812.jpeg', alt: 'Pagnotta Campero dalla crosta dorata', source: [709, 1536], crop: [400, 635, 309, 500] }, description: 'Impasto semi-integrale con farina del Mulino Fagioli e lievito madre vivo. Patate arrosto, cipolla e rosmarino, crosta rustica e mollica soffice.' }
       ] },
       { id: 'pane-sabato', label: 'Sabato', breads: [
-        { name: 'Venere', description: 'Bauletto con farina di riso Venere e farina di mais, a lievitazione naturale. Spirale interna e mollica soffice, ideale da tostare.' }
+        { name: 'Venere', photo: { src: 'img-originali/calendario-pane/IMG_8813.jpeg', alt: 'Bauletto Venere dalla crosta scura', source: [709, 1536], crop: [0, 635, 309, 430] }, description: 'Bauletto con farina di riso Venere e farina di mais, a lievitazione naturale. Spirale interna e mollica soffice, ideale da tostare.' }
       ] },
       { id: 'pane-domenica', label: 'Domenica', breads: [
-        { name: 'Shokupan', description: 'Pane in cassetta giapponese con farina tipo 1 e metodo Tangzhong. Mollica molto soffice, ideale per i classici sando.' }
+        { name: 'Shokupan', photo: { src: 'img-originali/calendario-pane/IMG_8814.jpeg', alt: 'Shokupan aperto, con la mollica chiara', source: [709, 1536], crop: [379, 675, 317, 540] }, description: 'Pane in cassetta giapponese con farina tipo 1 e metodo Tangzhong. Mollica molto soffice, ideale per i classici sando.' }
       ] }
     ],
     sweets: {
@@ -168,7 +168,29 @@ SITE_DATA.offer.days.forEach((day) => {
   const breads = make('div', 'day-breads');
   day.breads.forEach((bread) => {
     const entry = make('article', 'bread-entry');
-    entry.append(make('h4', 'bread-name', bread.name), make('p', 'bread-description', bread.description));
+    if (bread.photo) {
+      const { src, alt, source, crop } = bread.photo;
+      const [x, y, width, height] = crop;
+      const photo = make('figure', 'bread-photo');
+      photo.style.aspectRatio = `${width} / ${height}`;
+      photo.style.setProperty('--photo-width', `${source[0] / width * 100}%`);
+      photo.style.setProperty('--photo-left', `${-x / width * 100}%`);
+      photo.style.setProperty('--photo-top', `${-y / height * 100}%`);
+      const image = make('img');
+      image.src = src;
+      image.alt = alt;
+      image.width = source[0];
+      image.height = source[1];
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      photo.append(image);
+      entry.append(photo);
+    } else {
+      entry.classList.add('bread-entry--text-only');
+    }
+    const copy = make('div', 'bread-copy');
+    copy.append(make('h4', 'bread-name', bread.name), make('p', 'bread-description', bread.description));
+    entry.append(copy);
     breads.append(entry);
   });
   section.append(label, breads);
@@ -195,3 +217,44 @@ const notes = document.getElementById('demo-notes');
 document.getElementById('open-notes').addEventListener('click', () => notes.showModal());
 notes.querySelector('.close-dialog').addEventListener('click', () => notes.close());
 notes.addEventListener('click', (event) => { if (event.target === notes) notes.close(); });
+
+// Entrate lente, una sola volta: il contenuto resta visibile anche senza animazioni.
+function setupGentleMotion() {
+  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const targets = [...document.querySelectorAll('.hero-copy, .hero-art, .story, .bread-day, .visit-grid, .faq')];
+  const played = new Set();
+  const running = new Set();
+  let observer;
+
+  function syncMotion() {
+    if (observer) observer.disconnect();
+    if (preference.matches) {
+      running.forEach((animation) => animation.cancel());
+      running.clear();
+      return;
+    }
+    if (!('IntersectionObserver' in window)) return;
+
+    observer = new IntersectionObserver((entries) => {
+      entries.forEach(({ target, isIntersecting }) => {
+        if (!isIntersecting) return;
+        observer.unobserve(target);
+        if (played.has(target) || preference.matches) return;
+        played.add(target);
+        target.classList.add('has-entered');
+        if (typeof target.animate !== 'function') return;
+        const animation = target.animate([
+          { opacity: 0, transform: 'translateY(14px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], { duration: 760, easing: 'cubic-bezier(.2,.65,.3,1)' });
+        running.add(animation);
+        animation.onfinish = animation.oncancel = () => running.delete(animation);
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px 24px 0px' });
+    targets.forEach((target) => { if (!played.has(target)) observer.observe(target); });
+  }
+
+  syncMotion();
+  preference.addEventListener('change', syncMotion);
+}
+setupGentleMotion();

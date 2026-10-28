@@ -172,5 +172,54 @@
     "descriptions_are_abridged": true,
     "current_availability_prices_allergens_need_confirmation": true,
     "physical_devices_checked": false
+  },
+  "photos_motion": {
+    "photo_count": 8,
+    "pane_di_casa_photo": "img-originali/calendario-pane/IMG_8808.jpeg",
+    "pane_di_casa_attribution": "Identificata dall’utente",
+    "without_identified_photo": [
+      "Integrale"
+    ],
+    "original_files_unchanged": true,
+    "css_display_crop_only": true,
+    "lazy_loading": true,
+    "photo_alt_texts": true,
+    "browser_widths_checked": [
+      390,
+      768,
+      1280
+    ],
+    "client_scroll_widths": [
+      [
+        375,
+        375
+      ],
+      [
+        753,
+        753
+      ],
+      [
+        1265,
+        1265
+      ]
+    ],
+    "console_app_errors_observed": [],
+    "screenshots": [
+      "docs/anteprime/foto-desktop-browser.jpg",
+      "docs/anteprime/foto-mobile-browser.jpg",
+      "docs/anteprime/foto-tablet-browser.jpg",
+      "docs/anteprime/foto-weekend-browser.jpg"
+    ],
+    "reveal_duration_ms": 760,
+    "line_duration_ms": 1000,
+    "reveal_once_per_element": true,
+    "reduced_motion_logic_test": {
+      "initial_reduce_no_animation": true,
+      "change_to_reduce_cancels_in_flight": true,
+      "missing_observer_keeps_content_visible": true,
+      "test_environment": "Logica del codice eseguita in isolamento; preferenza di sistema browser non modificata."
+    },
+    "browser_reveal_classes_observed": true,
+    "physical_devices_checked": false
   }
 }
