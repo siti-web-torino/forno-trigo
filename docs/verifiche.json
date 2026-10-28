@@ -98,5 +98,79 @@
   ],
   "post_story_screenshot": "docs/anteprime/post-storia-mobile-browser.jpg",
   "vercel_settings_changed_by_assistant": false,
-  "browser_console_app_errors_observed": []
+  "browser_console_app_errors_observed": [],
+  "calendar": {
+    "source": "Sette screenshot forniti dall’utente, post Instagram del 15 settembre, anno non visibile",
+    "bread_count": 9,
+    "day_group_count": 8,
+    "mapping": {
+      "Ogni giorno": [
+        "Pane di casa",
+        "Integrale"
+      ],
+      "Da mercoledì a domenica": [
+        "Rugbrød"
+      ],
+      "Martedì": [
+        "Saragolla"
+      ],
+      "Mercoledì": [
+        "Amarillo"
+      ],
+      "Giovedì": [
+        "Cacao"
+      ],
+      "Venerdì": [
+        "Campero"
+      ],
+      "Sabato": [
+        "Venere"
+      ],
+      "Domenica": [
+        "Shokupan"
+      ]
+    },
+    "browser_widths_checked": [
+      390,
+      768,
+      1280
+    ],
+    "client_scroll_widths": [
+      [
+        375,
+        375
+      ],
+      [
+        753,
+        753
+      ],
+      [
+        1265,
+        1265
+      ]
+    ],
+    "horizontal_overflow": false,
+    "mobile_navigation_to_calendar_checked": true,
+    "application_console_errors_observed": [],
+    "screenshots": [
+      {
+        "file": "docs/anteprime/calendario-390-browser.jpg",
+        "content_width": 390,
+        "includes_test_wrapper": true
+      },
+      {
+        "file": "docs/anteprime/calendario-768-browser.jpg",
+        "content_width": 768,
+        "includes_test_wrapper": true
+      },
+      {
+        "file": "docs/anteprime/calendario-1280-browser.jpg",
+        "content_width": 1280,
+        "includes_test_wrapper": true
+      }
+    ],
+    "descriptions_are_abridged": true,
+    "current_availability_prices_allergens_need_confirmation": true,
+    "physical_devices_checked": false
+  }
 }

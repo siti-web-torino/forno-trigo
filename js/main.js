@@ -11,7 +11,7 @@ const SITE_DATA = {
   maps: 'https://www.google.com/maps/search/?api=1&query=Forno+Trigo+Via+Giulia+di+Barolo+25A+Torino',
   hours: null, phone: null, email: null, officialMenu: null,
   officialLogo: { src: 'img/trigo-logo.svg', alt: 'TRIGO' },
-  navigation: [ { label: 'Il forno', href: '#il-forno' }, { label: 'La proposta', href: '#la-proposta' }, { label: 'Dove siamo', href: '#dove' } ],
+  navigation: [ { label: 'Il forno', href: '#il-forno' }, { label: 'Calendario del pane', href: '#la-proposta' }, { label: 'Dove siamo', href: '#dove' } ],
   actions: { maps: 'Come arrivare', discover: 'Scopri il forno', instagram: 'Segui il forno su Instagram' },
   hero: {
     eyebrow: 'Forno contemporaneo · Torino',
@@ -26,13 +26,42 @@ const SITE_DATA = {
     note: 'Dal post di presentazione di @fornotrigo, firmato Lisa | Ale.'
   },
   offer: {
-    index: '02 / La proposta', title: 'Dal forno.',
-    note: 'Due categorie raccontate dalle fonti. La selezione attuale va verificata con il forno.',
-    menuNote: 'Assortimento, prezzi, ingredienti e allergeni. Questa sezione non è un menu ufficiale.',
-    products: [
-      { number: '01', title: 'Pane', subtitle: 'Grani antichi e lievitazione naturale', type: 'pane', text: 'Il pane è al centro della proposta descritta dalle fonti. Tipologie, pezzature, ingredienti, allergeni, prezzi e disponibilità attuale sono [DA CONFERMARE].' },
-      { number: '02', title: 'Dolci da forno', subtitle: 'Lievitati dolci', type: 'dolci', text: 'Le fonti parlano di pani e lievitati dolci di ispirazione internazionale. Ricette, ingredienti, allergeni, prezzi e selezione attuale sono [DA CONFERMARE].' }
-    ]
+    index: '02 / Dal forno', title: 'Calendario del pane.',
+    note: 'Ogni giorno ha la sua lievitazione, i suoi profumi e la sua farina.',
+    source: 'Dal calendario di @fornotrigo pubblicato il 15 settembre.',
+    menuNote: 'Conferma con il forno il calendario attuale, la disponibilità, i prezzi e gli allergeni. Le descrizioni sono sintesi del post, non un elenco completo degli ingredienti.',
+    days: [
+      { id: 'pane-ogni-giorno', label: 'Ogni giorno', breads: [
+        { name: 'Pane di casa', description: 'Lievito madre vivo e farro monococco del Mulino Sobrino. Mollica aperta e crosta croccante al sesamo tostato.' },
+        { name: 'Integrale', description: 'Farina tipo 1 del Mulino Fagioli e integrale del Mulino Sobrino. Lievitazione naturale di 19 ore, mollica densa e umida.' }
+      ] },
+      { id: 'pane-mercoledi-domenica', label: 'Da mercoledì a domenica', breads: [
+        { name: 'Rugbrød', description: 'Pane nordico con 100% farina di segale del Mulino Sobrino, lievito madre e semi. Compatto, da gustare a fette sottili.' }
+      ] },
+      { id: 'pane-martedi', label: 'Martedì', breads: [
+        { name: 'Saragolla', description: 'Grano duro antico e lievito madre vivo. Mollica dorata e setosa, crosta con note di mandorla tostata.' }
+      ] },
+      { id: 'pane-mercoledi', label: 'Mercoledì', breads: [
+        { name: 'Amarillo', description: 'Farina tipo 1 del Mulino Fagioli, lievito madre vivo, curcuma e pepe nero. Mollica aperta e dorata, crosta scrocchiarella.' }
+      ] },
+      { id: 'pane-giovedi', label: 'Giovedì', breads: [
+        { name: 'Cacao', description: 'Farina tipo 1 del Mulino Fagioli, lievito madre vivo e cacao extra dark, con amarene semicandite Agrimontana e nocciole IGP di Roero Vero. Mollica soffice.' }
+      ] },
+      { id: 'pane-venerdi', label: 'Venerdì', breads: [
+        { name: 'Campero', description: 'Impasto semi-integrale con farina del Mulino Fagioli e lievito madre vivo. Patate arrosto, cipolla e rosmarino, crosta rustica e mollica soffice.' }
+      ] },
+      { id: 'pane-sabato', label: 'Sabato', breads: [
+        { name: 'Venere', description: 'Bauletto con farina di riso Venere e farina di mais, a lievitazione naturale. Spirale interna e mollica soffice, ideale da tostare.' }
+      ] },
+      { id: 'pane-domenica', label: 'Domenica', breads: [
+        { name: 'Shokupan', description: 'Pane in cassetta giapponese con farina tipo 1 e metodo Tangzhong. Mollica molto soffice, ideale per i classici sando.' }
+      ] }
+    ],
+    sweets: {
+      title: 'Anche dolci da forno.',
+      description: 'La proposta comprende anche lievitati dolci. La selezione attuale, i prezzi e gli allergeni sono [DA CONFERMARE] con il forno.',
+      action: 'Scopri la proposta su Instagram'
+    }
   },
   contact: {
     index: '03 / Vieni a trovarci', title: ['Ci vediamo', 'in Vanchiglia.'],
@@ -44,7 +73,7 @@ const SITE_DATA = {
     index: 'Prima di passare', title: 'Le cose utili.',
     items: [
       { question: 'Dove si trova Forno Trigo?', answer: 'In via Giulia di Barolo 25/A, nel quartiere Vanchiglia di Torino, secondo le fonti pubbliche. Il pulsante “Come arrivare” apre la ricerca dell’indirizzo su Google Maps.' },
-      { question: 'Dove posso vedere il menu e gli orari?', answer: 'Menu e orari aggiornati sono [DA CONFERMARE]. Consulta il profilo @fornotrigo e verifica direttamente con il forno; questa demo non mostra un listino o uno stato di apertura in tempo reale.' },
+      { question: 'Dove trovo il pane della settimana e gli orari?', answer: 'Il Calendario del pane riporta varietà e giorni dal post di @fornotrigo del 15 settembre. Calendario attuale, disponibilità, prezzi e allergeni sono [DA CONFERMARE] con il forno. Anche orari e giorni di apertura vanno verificati prima di passare.' },
       { question: 'Si può ordinare da questo sito?', answer: 'Le modalità di ordine, prenotazione e ritiro sono [DA CONFERMARE]. Questa proposta di sito non raccoglie ordini né pagamenti.' }
     ]
   },
@@ -52,8 +81,8 @@ const SITE_DATA = {
     banner: 'Proposta di sito · demo indipendente', detail: 'Identità e dati da confermare',
     footer: 'Demo indipendente · 2026 · Dati e identità da confermare',
     notesButton: 'Note sulla demo', notesTitle: 'Una proposta, da confermare.',
-    notesBody: 'Questa è una proposta indipendente per Forno Trigo. Non è il sito ufficiale del locale e non risulta approvata dai gestori. Indirizzo e categorie provengono da fonti pubbliche e vanno riconfermati prima dell’uso commerciale. Orari, menu, prezzi, ingredienti, allergeni e contatti diretti sono [DA CONFERMARE].',
-    brandNote: 'Il logo e il racconto del forno provengono dal post Instagram fornito dall’utente. Il marchio è mostrato com’è; la palette riprende avorio, marrone e arancione del post. I codici colore campionati e i font del sito non sono un manuale ufficiale del marchio. Le fotografie dei prodotti devono ancora essere inserite. L’illustrazione è concettuale e non rappresenta il locale reale.',
+    notesBody: 'Questa è una proposta indipendente per Forno Trigo. Non è il sito ufficiale del locale e non risulta approvata dai gestori. Il Calendario del pane segue il post Instagram del 15 settembre fornito dall’utente, con descrizioni abbreviate. Calendario attuale, disponibilità, prezzi, ingredienti completi e allergeni sono [DA CONFERMARE] con il forno, così come indirizzo, orari e contatti diretti.',
+    brandNote: 'Il logo, il racconto del forno e il calendario provengono dai post Instagram forniti dall’utente. Il marchio è mostrato com’è; la palette riprende avorio, marrone e arancione del post. I codici colore campionati e i font del sito non sono un manuale ufficiale del marchio. L’illustrazione è concettuale e non rappresenta il locale reale.',
     privacyNote: 'La pagina non incorpora mappe, social, analytics o moduli e non imposta cookie applicativi. I collegamenti esterni aprono servizi di terzi, che gestiscono i dati secondo le proprie informative.'
   },
   sources: [
@@ -131,19 +160,19 @@ document.addEventListener('click', (event) => {
 });
 window.matchMedia('(min-width: 900px)').addEventListener('change', () => closeMenu());
 
-SITE_DATA.offer.products.forEach((product) => {
-  const details = make('details', 'product');
-  const summary = make('summary', 'product-summary');
-  summary.append(make('span', 'product-number', product.number));
-  const copy = make('span', 'product-copy');
-  copy.append(make('span', 'product-title', product.title), make('span', 'product-subtitle', product.subtitle));
-  const symbol = make('span', `product-symbol symbol-${product.type}`);
-  symbol.setAttribute('aria-hidden', 'true');
-  const plus = make('span', 'details-plus', '+');
-  plus.setAttribute('aria-hidden', 'true');
-  summary.append(copy, symbol, plus);
-  details.append(summary, make('p', 'product-description', product.text));
-  document.getElementById('prodotti').append(details);
+SITE_DATA.offer.days.forEach((day) => {
+  const section = make('section', 'bread-day');
+  const label = make('h3', 'bread-day-label', day.label);
+  label.id = day.id;
+  section.setAttribute('aria-labelledby', day.id);
+  const breads = make('div', 'day-breads');
+  day.breads.forEach((bread) => {
+    const entry = make('article', 'bread-entry');
+    entry.append(make('h4', 'bread-name', bread.name), make('p', 'bread-description', bread.description));
+    breads.append(entry);
+  });
+  section.append(label, breads);
+  document.getElementById('calendario-pane').append(section);
 });
 SITE_DATA.faq.items.forEach(({ question, answer }) => {
   const details = make('details', 'faq-item');

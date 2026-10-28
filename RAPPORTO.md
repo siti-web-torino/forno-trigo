@@ -1,10 +1,10 @@
 # Rapporto — Forno Trigo
 
-Verifica del 28 ottobre 2026. **Proposta indipendente pronta da rivedere; logo e testo del post Instagram forniti dall’utente e inseriti; foto dei prodotti ancora attese.**
+Verifica del 28 ottobre 2026. **Proposta indipendente pronta da rivedere; logo e testo del post Instagram inseriti; aggiunto il Calendario del pane dai sette screenshot forniti dall’utente.**
 
 ## Pronto
 
-Pagina statica responsive con presentazione del forno, categorie pane e dolci, indirizzo, link Maps, profilo Instagram, note sulla demo e domande frequenti. Nessun prodotto specifico, prezzo, orario, telefono, recensione o sistema di ordine inventato. Repository pubblica creata prima del sito dal template; `CLAUDE.md` conservato. Deploy Vercel non eseguito, come richiesto.
+Pagina statica responsive con presentazione del forno, Calendario del pane con nove pani e descrizioni sintetiche, richiamo ai dolci, indirizzo, link Maps, profilo Instagram, note sulla demo e domande frequenti. Prodotti e giorni provengono dai sette screenshot ricevuti; nessun prezzo, orario, telefono, recensione o sistema di ordine inventato. Repository pubblica creata prima del sito dal template; `CLAUDE.md` conservato. Deploy Vercel non eseguito, come richiesto.
 
 ## Controlli
 
@@ -40,3 +40,11 @@ Marchio TRIGO del post ricevuto inserito in intestazione e nel footer senza ridi
 Controllata la modifica nel browser a 390, 768 e 1280 px: nessun overflow orizzontale; logo caricato e leggibile, menu mobile apertura/Escape/chiusura dopo scelta verificati, racconto completo leggibile a 390 px. Nessun errore con origine applicativa nei log osservati. Contrasto testo/fondo AA verificato e salvato in `docs/verifiche.json`. Le nuove immagini `logo-*-browser.jpg` e `post-storia-mobile-browser.jpg` includono la cornice grigia del banco di prova; la larghezza del contenuto è dichiarata nel JSON. I vecchi screenshot documentano la prima versione. Nessun test su dispositivi fisici o Safari.
 
 La pagina pubblica pubblicata dall’utente si apre senza login su https://forno-trigo.vercel.app/. Nessun deploy o modifica delle impostazioni Vercel eseguiti dall’assistente. Il salvataggio passa da `main` della repo esistente; il collegamento già predisposto dall’utente può avviare il suo deploy automatico.
+
+## Calendario del pane — verifica della versione corrente
+
+Inseriti tutti i nove pani dei sette screenshot: Pane di casa e Integrale ogni giorno; Rugbrød da mercoledì a domenica; Saragolla martedì; Amarillo mercoledì; Cacao giovedì; Campero venerdì; Venere sabato; Shokupan domenica. Descrizioni abbreviate mantenendo farine, ingredienti distintivi e consistenze. Nessuna promessa sulle durate di conservazione, nessuna deduzione di assenza di glutine o di orari dai giorni di produzione. I nomi e i giorni sono quelli dei post, la disponibilità attuale resta da confermare.
+
+Verificati nel browser tutti gli otto gruppi e i nove nomi; controllato il calendario a 390, 768 e 1280 px. Larghezze del contenuto e di scorrimento rispettivamente 375/375, 753/753 e 1265/1265: nessun overflow orizzontale. Nelle anteprime `calendario-*-browser.jpg` si vede l’impaginazione a una colonna su telefono, a due colonne sul tablet e con nome/descrizione affiancati su desktop. Font di descrizione 16 px e line-height 1,75; palette e contrasti invariati rispetto alle coppie AA già misurate.
+
+Menu mobile: il nuovo collegamento “Calendario del pane” raggiunge la sezione, chiude il menu e trasferisce il focus. Nessun errore applicativo nei log osservati. Sintassi JavaScript, JSON, riferimenti locali e frammenti HTML controllati. Originali dei sette screenshot salvati invariati in `img-originali/calendario-pane/`. Le foto non vengono sostituite con immagini generate. Nessuna operazione eseguita su Vercel; il flusso di pubblicazione passa dalla stessa repo e dall’integrazione automatica predisposta dall’utente. Le verifiche su dispositivi fisici e con tecnologie assistive restano fuori dal controllo eseguito.

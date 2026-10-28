@@ -71,19 +71,23 @@ h2{font-size:clamp(2.6rem,5vw,4.5rem)}
 .story-body .text-link{margin-top:1rem}
 .section-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap;margin-bottom:2rem}
 .section-side-note{font-size:.75rem;max-width:19rem;line-height:1.7;color:var(--muted)}
-.product{border-top:1px solid var(--rule)}
-.product:last-child{border-bottom:1px solid var(--rule)}
 summary{list-style:none}
 summary::-webkit-details-marker{display:none}
-.product-summary{display:grid;grid-template-columns:1.25rem 1fr 25px;align-items:center;gap:.75rem;padding:1.5rem 0;min-height:114px}
-.product-number{font-size:.65rem;align-self:start;padding-top:.75rem}
-.product-title{font-family:var(--display);font-size:2rem;letter-spacing:-.04em;line-height:1.1;display:block}
-.product-subtitle{display:block;margin-top:.6rem;font-size:.7rem;color:var(--muted)}
-.product-symbol{display:none}
 .details-plus{font-size:1.5rem;display:inline-block;text-align:center;line-height:1;font-weight:300;transition:transform .2s}
 details[open]>summary .details-plus{transform:rotate(45deg)}
-.product-description{max-width:42rem;margin-left:2rem;padding-bottom:1.75rem;font-size:.87rem;line-height:1.8}
-.product-summary:hover .product-title{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px}
+.calendar-source{font-size:.7rem;color:var(--muted);margin-bottom:1.25rem}
+.bread-calendar{border-bottom:1px solid var(--rule)}
+.bread-day{display:grid;gap:1.35rem;padding-block:1.75rem;border-top:1px solid var(--rule);scroll-margin-top:2rem}
+.bread-day-label{font-size:.78rem;line-height:1.6;font-weight:600;max-width:20ch}
+.bread-day-label::before{content:'';display:block;width:1.75rem;height:3px;background:var(--grain);margin-bottom:.6rem}
+.day-breads{display:grid;gap:1.75rem;min-width:0}
+.bread-entry{display:grid;gap:.55rem;min-width:0}
+.bread-name{margin:0;font-family:var(--display);font-size:1.85rem;line-height:1.2;letter-spacing:-.035em;font-weight:450}
+.bread-description{font-size:1rem;line-height:1.75;max-width:40rem}
+.bakery-sweets{display:grid;gap:1.1rem;border-top:1px solid var(--rule);margin-top:2.5rem;padding-top:2rem}
+.bakery-sweets h3{font-family:var(--display);font-size:2rem;line-height:1.2;letter-spacing:-.035em;font-weight:450}
+.bakery-sweets p{font-size:.85rem;line-height:1.8;max-width:40rem}
+.bakery-sweets .text-link{margin-top:.75rem}
 .menu-note{display:flex;align-items:flex-start;gap:.8rem;font-size:.69rem;margin-top:1.25rem;color:var(--muted);max-width:45rem}
 .menu-note .pending-tag{margin-top:.1rem;flex-shrink:0}
 .visit{background:var(--ink);color:var(--paper);padding-block:3.5rem}
@@ -122,6 +126,9 @@ address{font-style:normal;font-size:.86rem;line-height:1.8;display:flex;flex-dir
 .demo-dialog .source-note{font-size:.7rem;color:var(--muted)}
 .noscript-note{padding:2rem;max-width:45rem;margin-inline:auto;border:1px solid var(--ink)}
 .noscript-note p{margin-top:1rem}
-@media(min-width:600px){:root{--edge:2rem}.banner-detail{display:inline}.type-strip span:last-child,.type-strip i:last-of-type{display:inline}.hero{padding-block:3.5rem}.hero-art{width:min(100%,460px)}.product-summary{grid-template-columns:2rem 1fr 90px 32px;gap:1.5rem}.product-symbol{display:block;width:68px;height:44px;border:1.5px solid var(--ink);justify-self:center}.symbol-pane{border-radius:50%;transform:rotate(-12deg);position:relative}.symbol-pane::before,.symbol-pane::after{content:'';position:absolute;top:10px;bottom:10px;width:1.5px;background:var(--ink);transform:rotate(25deg)}.symbol-pane::before{left:25px}.symbol-pane::after{left:40px}.symbol-dolci{width:48px;height:48px;border-radius:50%;background:repeating-radial-gradient(ellipse at center,transparent 0 5px,var(--ink) 6px 7px,transparent 8px 11px)}.product-title{font-size:2.75rem}.product-description{margin-left:3.5rem}.section-space{padding-block:4.5rem}.visit{padding-block:4.5rem}}
-@media(min-width:900px){:root{--edge:3rem}.site-header{min-height:112px}.menu-toggle{display:none}.js .primary-nav{display:flex;position:static;padding:0;background:transparent;border:0;flex-direction:row;gap:2.5rem}.hero{grid-template-columns:1.17fr .83fr;align-items:center;gap:3rem;padding-top:3.75rem;padding-bottom:3.75rem}.hero-art{max-width:450px}.hero h1{margin-top:1.7rem}.hero-description{margin-top:1.75rem;font-size:1rem}.hero-address{margin-top:2.5rem}.hero-actions{gap:1.75rem}.hero-art figcaption{font-size:.6rem}.type-strip{padding-block:1.25rem;font-size:.8rem}.type-strip i{font-size:1.3rem}.story{grid-template-columns:1fr 1fr;gap:6rem}.story-body{padding-top:2.3rem}.large-copy{font-size:1.8rem}.section-space{padding-block:5.5rem}.offer .section-heading{margin-bottom:3rem}.product-summary{padding-block:1.8rem}.product-title{font-size:3rem}.visit{padding-block:5.5rem}.visit-grid{grid-template-columns:1.15fr .85fr;gap:7rem}.visit-info{padding-top:.35rem}.faq{grid-template-columns:.8fr 1.2fr;gap:5rem}.site-footer{padding-block:2.5rem}.demo-dialog{padding:2rem}}
+@media(min-width:600px){:root{--edge:2rem}.banner-detail{display:inline}.type-strip span:last-child,.type-strip i:last-of-type{display:inline}.hero{padding-block:3.5rem}.hero-art{width:min(100%,460px)}.section-space{padding-block:4.5rem}.visit{padding-block:4.5rem}}
+@media(min-width:900px){:root{--edge:3rem}.site-header{min-height:112px}.menu-toggle{display:none}.js .primary-nav{display:flex;position:static;padding:0;background:transparent;border:0;flex-direction:row;gap:2.5rem}.hero{grid-template-columns:1.17fr .83fr;align-items:center;gap:3rem;padding-top:3.75rem;padding-bottom:3.75rem}.hero-art{max-width:450px}.hero h1{margin-top:1.7rem}.hero-description{margin-top:1.75rem;font-size:1rem}.hero-address{margin-top:2.5rem}.hero-actions{gap:1.75rem}.hero-art figcaption{font-size:.6rem}.type-strip{padding-block:1.25rem;font-size:.8rem}.type-strip i{font-size:1.3rem}.story{grid-template-columns:1fr 1fr;gap:6rem}.story-body{padding-top:2.3rem}.large-copy{font-size:1.8rem}.section-space{padding-block:5.5rem}.offer .section-heading{margin-bottom:3rem}.visit{padding-block:5.5rem}.visit-grid{grid-template-columns:1.15fr .85fr;gap:7rem}.visit-info{padding-top:.35rem}.faq{grid-template-columns:.8fr 1.2fr;gap:5rem}.site-footer{padding-block:2.5rem}.demo-dialog{padding:2rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+@media(min-width:600px){.bread-day{grid-template-columns:10rem minmax(0,1fr);gap:2rem;padding-block:2rem}.bread-day-label{padding-top:.2rem}.bakery-sweets{grid-template-columns:10rem minmax(0,1fr);gap:2rem}}
+@media(min-width:1000px){.bread-day{grid-template-columns:11rem minmax(0,1fr);gap:3rem}.bread-entry{grid-template-columns:minmax(10rem,.65fr) minmax(0,1.35fr);gap:2rem;align-items:start}.bread-name{font-size:2rem}.bakery-sweets{grid-template-columns:11rem minmax(0,1fr);gap:3rem}}

@@ -28,7 +28,7 @@ Le fonti pubbliche sono uno studio preliminare: non equivalgono a conferma del l
 
 ## Menu
 
-Non esiste un menu ricevuto da trascrivere. Le sole categorie supportate dalle fonti sono **pane** e **dolci da forno / lievitati dolci**; non sono un listino e non implicano disponibilità attuale. Le sezioni indicano visibilmente `[DA CONFERMARE]` per assortimento, prezzi, ingredienti e allergeni. Nessuna foto di croissant o prodotto non verificato.
+È stato ricevuto il **Calendario del pane** del profilo @fornotrigo, in sette screenshot. Il post è datato “15 settembre”, senza anno visibile. Le produzioni sono trascritte nella demo con descrizioni abbreviate; il calendario attuale, la disponibilità, i prezzi e gli allergeni restano `[DA CONFERMARE]` con il forno. La proposta comprende anche dolci da forno, la cui selezione non è documentata da queste immagini.
 
 ## Contesto e criteri di design
 
@@ -57,3 +57,19 @@ Un visitatore da telefono cerca in primo luogo posizione e orari, poi proposta e
 6. Identità proposta sostituibile tramite variabili CSS; logo originale preservato quando sarà ricevuto.
 7. Percorsi relativi, font locali OFL, nessun framework, CDN, analytics, form o cookie applicativo.
 8. Tastiera, focus, contrasto, movimento ridotto e dimensioni touch di almeno 44 px.
+
+## Catalogo del materiale — Calendario del pane
+
+Ricevuto il 28 ottobre 2026. Originali conservati in `img-originali/calendario-pane/`, senza modifiche. Tutti sono screenshot 709 × 1536 px di grafiche Instagram con pane, testi, mani e interfaccia dell’app; nessun volto o persona identificabile. Usati come fonte, senza presentarli come fotografie autonome della galleria. Le immagini hanno qualità sufficiente per leggere i testi, non sono originali fotografici ad alta risoluzione.
+
+| File | Giorni e pani trascritti | Elementi essenziali mantenuti |
+| --- | --- | --- |
+| IMG_8808.jpeg | Ogni giorno: Pane di casa, Integrale | Casa: madre vivo, farro monococco Mulino Sobrino, sesamo tostato, mollica aperta. Integrale: tipo 1 Mulino Fagioli e integrale Mulino Sobrino, 19 ore naturali, mollica densa e umida. |
+| IMG_8809.jpeg | Da mercoledì a domenica: Rugbrød | 100% farina di segale Mulino Sobrino, madre e semi; pane nordico compatto da affettare sottile. |
+| IMG_8810.jpeg | Martedì: Saragolla; mercoledì: Amarillo | Saragolla: grano duro antico, madre vivo, mollica dorata e setosa, note di mandorla tostata nella crosta. Amarillo: tipo 1 Mulino Fagioli, madre vivo, curcuma, pepe nero, mollica aperta e crosta scrocchiarella. |
+| IMG_8811.jpeg | Giovedì: Cacao | Tipo 1 Mulino Fagioli, cacao extra dark, amarene semicandite Agrimontana, nocciole IGP di Roero Vero, madre vivo e mollica soffice. |
+| IMG_8812.jpeg | Venerdì: Campero | Semi-integrale, farina Mulino Fagioli, madre vivo, patate arrosto, cipolla, rosmarino, crosta rustica e mollica soffice. |
+| IMG_8813.jpeg | Sabato: Venere | Riso Venere e mais, lievitazione naturale, spirale interna, mollica soffice, da tostare. Non è indicata o inferita un’assenza di glutine. |
+| IMG_8814.jpeg | Domenica: Shokupan | Pane in cassetta giapponese, tipo 1, metodo Tangzhong, mollica soffice, sando. |
+
+Lettura ad alta certezza per nomi, giorni e ingredienti riportati. Le descrizioni sono parafrasi abbreviate su richiesta dell’utente, non slogan modificati. Le note di mandorla della Saragolla sono descritte come aroma, non come ingrediente aggiunto. Le durate di conservazione del post non vengono ripetute nella sintesi: il visitatore trova prima giorni, varietà, farine, ingredienti distintivi e consistenza. Non sono un elenco completo degli ingredienti o degli allergeni. Non è stata trasformata la dicitura “Ogni giorno” in un orario di apertura o in disponibilità in tempo reale.

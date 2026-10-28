@@ -32,7 +32,7 @@ Per una verifica locale è sufficiente un server di file statici nella radice de
 - Logo e post ricevuti dall’utente il 28 ottobre 2026 e adottati per la demo; approvazione finale del locale ancora da ottenere.
 - Indirizzo e racconto dell'attività, attualmente derivati da fonti pubbliche.
 - Orari e giorni di chiusura.
-- Menu, prezzi, assortimento attuale, ingredienti e allergeni.
+- Conferma del calendario attuale, prezzi, disponibilità, ingredienti completi e allergeni. Il calendario del post del 15 settembre è stato ricevuto e trascritto.
 - Telefono, email, modalità di ordine, prenotazione e ritiro.
 - Eventuali informazioni societarie e documenti da inserire nella versione ufficiale.
 
@@ -45,3 +45,9 @@ Nel sito i dati mancanti sono indicati con `[DA CONFERMARE]`. Il profilo Instagr
 Il deploy Vercel è stato eseguito dall’utente. Il link https://forno-trigo.vercel.app/ è stato aperto senza schermata di accesso nel browser di verifica il 28 ottobre 2026. Le modifiche al codice passano da `main`; nessuna impostazione o operazione di deploy viene eseguita dall’assistente su Vercel. Non rimuovere i segnali della demo o noindex finché dati, materiali e identità non sono approvati.
 
 Le fotografie future devono essere fornite e autorizzate. Conservare gli originali in `img-originali/` e inserire versioni WebP ottimizzate in `img/`; non usare persone riconoscibili senza consenso.
+
+## Calendario del pane
+
+I sette screenshot forniti dall’utente sono conservati invariati in `img-originali/calendario-pane/`. La pagina presenta tutti i nove pani con descrizioni abbreviate in testo HTML, organizzati per i giorni indicati nelle immagini. I contenuti si modificano in `SITE_DATA.offer.days` in `js/main.js`: `label` è il gruppo di giorni, `breads` contiene nomi e descrizioni. Il titolo e il richiamo in navigazione usano “Calendario del pane”.
+
+Il post mostra “15 settembre”, senza anno visibile: non attribuire un anno. “Ogni giorno” descrive il calendario delle produzioni; non è prova di apertura quotidiana. La disponibilità attuale e le informazioni complete sugli ingredienti e sugli allergeni vanno confermate con il forno. Non sono stati aggiunti prezzi o indicazioni “senza glutine”, né promesse sulla conservazione.
